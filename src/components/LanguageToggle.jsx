@@ -1,41 +1,51 @@
 import { Button } from '@/components/ui/button.jsx';
 
-export function LanguageToggle({ currentLanguage, onToggle, targetLanguage }) {
+export function LanguageToggle({ currentLanguage, onToggle, targetLanguage, countryCode }) {
   // Determine what to show based on current language
   // The button shows the NEXT language (what you'll switch TO)
   let flag, text;
   
-  if (currentLanguage === 'ar') {
-    // Currently Arabic -> show English option
-    flag = '🇬🇧';
-    text = 'English';
-  } else if (currentLanguage === 'hi') {
-    // Currently Hindi -> show English option
-    flag = '🇬🇧';
-    text = 'English';
-  } else if (currentLanguage === 'tl') {
-    // Currently Tagalog -> show English option
-    flag = '🇬🇧';
-    text = 'English';
-  } else if (currentLanguage === 'en') {
+  // Language display mapping
+  const languageDisplay = {
+    ar: { flag: '🇸🇦', text: 'العربية' },
+    en: { flag: '🇬🇧', text: 'English' },
+    hi: { flag: '🇮🇳', text: 'हिंदी' },
+    tl: { flag: '🇵🇭', text: 'Tagalog' },
+    id: { flag: '🇮🇩', text: 'Bahasa' },
+    tr: { flag: '🇹🇷', text: 'Türkçe' },
+    es: { flag: '🇲🇽', text: 'Español' },
+    pt: { flag: '🇧🇷', text: 'Português' }
+  };
+  
+  // Country-specific default target languages
+  const countryTargetLanguages = {
+    sa: 'ar',
+    eg: 'ar',
+    ph: 'tl',
+    id: 'id',
+    tr: 'tr',
+    mx: 'es',
+    br: 'pt',
+    in: 'hi',
+    ng: null // Nigeria is English-only
+  };
+  
+  // Determine the target language
+  const target = targetLanguage || (countryCode ? countryTargetLanguages[countryCode] : 'ar');
+  
+  if (currentLanguage === 'en') {
     // Currently English -> show the local language option
-    // Use targetLanguage if provided, otherwise default to Arabic
-    const target = targetLanguage || 'ar';
-    
-    if (target === 'ar') {
-      flag = '🇸🇦';
-      text = 'العربية';
-    } else if (target === 'hi') {
-      flag = '🇮🇳';
-      text = 'हिंदी';
-    } else if (target === 'tl') {
-      flag = '🇵🇭';
-      text = 'Tagalog';
+    if (target && languageDisplay[target]) {
+      flag = languageDisplay[target].flag;
+      text = languageDisplay[target].text;
     } else {
-      // Fallback to Arabic if target is unknown
-      flag = '🇸🇦';
-      text = 'العربية';
+      // No toggle needed for English-only countries
+      return null;
     }
+  } else {
+    // Currently in local language -> show English option
+    flag = '🇬🇧';
+    text = 'English';
   }
   
   // Fallback if flag/text are still undefined
