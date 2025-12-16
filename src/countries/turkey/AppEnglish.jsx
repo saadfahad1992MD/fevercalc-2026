@@ -282,9 +282,9 @@ const suppositories = {
 
 */
 
-// Use Indonesia medications database (English)
-const medications = { paracetamol: medicationsIndonesia.paracetamol, ibuprofen: medicationsIndonesia.ibuprofen };
-const suppositories = medicationsIndonesia.suppositories;
+// Use Turkey medications database (English)
+const medications = { paracetamol: medicationsTurkeyEnglish.paracetamol, ibuprofen: medicationsTurkeyEnglish.ibuprofen };
+const suppositories = medicationsTurkeyEnglish.suppositories;
 
 function AppEnglish({ onChangeLanguage }) {
   const [weight, setWeight] = useState('') // String for text input
