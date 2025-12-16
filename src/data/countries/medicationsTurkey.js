@@ -8,7 +8,7 @@ export const medicationsTurkey = {
       concentration: 100,
       volume: 1,
       form: 'Damla',
-      image: '/medications/parol-drops.jpg',
+      image: '/medications/turkey/parol-drops.jpg',
       ageRestriction: '0-12 ay için'
     },
     {
@@ -18,7 +18,7 @@ export const medicationsTurkey = {
       concentration: 100,
       volume: 1,
       form: 'Damla',
-      image: '/medications/calpol-drops.jpg',
+      image: '/medications/turkey/calpol-drops.jpg',
       ageRestriction: '0-12 ay için'
     },
     {
@@ -28,7 +28,7 @@ export const medicationsTurkey = {
       concentration: 120,
       volume: 5,
       form: 'Şurup',
-      image: '/medications/parol-syrup.jpg',
+      image: '/medications/turkey/parol-syrup.jpg',
       ageRestriction: ''
     },
     {
@@ -38,7 +38,7 @@ export const medicationsTurkey = {
       concentration: 120,
       volume: 5,
       form: 'Şurup',
-      image: '/medications/calpol-syrup.jpg',
+      image: '/medications/turkey/calpol-syrup.jpg',
       ageRestriction: ''
     },
     {
@@ -48,7 +48,7 @@ export const medicationsTurkey = {
       concentration: 120,
       volume: 5,
       form: 'Şurup',
-      image: '/medications/gripin-bebe-syrup.jpg',
+      image: '/medications/turkey/gripin-bebe-syrup.jpg',
       ageRestriction: ''
     },
     {
@@ -58,7 +58,7 @@ export const medicationsTurkey = {
       concentration: 120,
       volume: 5,
       form: 'Şurup',
-      image: '/medications/minoset-syrup.jpg',
+      image: '/medications/turkey/minoset-syrup.jpg',
       ageRestriction: ''
     }
   ],
@@ -70,7 +70,7 @@ export const medicationsTurkey = {
       concentration: 100,
       volume: 5,
       form: 'Şurup',
-      image: '/medications/dolven-syrup.jpg',
+      image: '/medications/turkey/dolven-syrup.jpg',
       ageRestriction: '6 ay ve üzeri'
     },
     {
@@ -80,7 +80,7 @@ export const medicationsTurkey = {
       concentration: 100,
       volume: 5,
       form: 'Şurup',
-      image: '/medications/pedifen-syrup.jpg',
+      image: '/medications/turkey/pedifen-syrup.jpg',
       ageRestriction: '6 ay ve üzeri'
     },
     {
@@ -90,7 +90,7 @@ export const medicationsTurkey = {
       concentration: 100,
       volume: 5,
       form: 'Şurup',
-      image: '/medications/kidyfen-syrup.jpg',
+      image: '/medications/turkey/kidyfen-syrup.jpg',
       ageRestriction: '6 ay ve üzeri'
     },
     {
@@ -100,7 +100,7 @@ export const medicationsTurkey = {
       concentration: 100,
       volume: 5,
       form: 'Şurup',
-      image: '/medications/apranax-syrup.jpg',
+      image: '/medications/turkey/apranax-syrup.jpg',
       ageRestriction: '6 ay ve üzeri'
     },
     {
@@ -110,7 +110,7 @@ export const medicationsTurkey = {
       concentration: 100,
       volume: 5,
       form: 'Şurup',
-      image: '/medications/nurofen-syrup.jpg',
+      image: '/medications/turkey/nurofen-syrup.jpg',
       ageRestriction: '6 ay ve üzeri'
     }
   ],

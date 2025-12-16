@@ -12,7 +12,7 @@ export const medicationsIndiaEnglish = {
       concentration: 100, // mg per 1ml
       volume: 1, // ml
       form: 'Drops',
-      image: '/medications/crocin_baby_drops.png',
+      image: '/medications/india/crocin_baby_drops.png',
       ageRestriction: 'Infants'
     },
     {
@@ -22,7 +22,7 @@ export const medicationsIndiaEnglish = {
       concentration: 120, // mg per 5ml
       volume: 5, // ml
       form: 'Syrup',
-      image: '/medications/crocin_120.png',
+      image: '/medications/india/crocin_120.png',
       ageRestriction: 'Up to 5 years'
     },
     {
@@ -32,7 +32,7 @@ export const medicationsIndiaEnglish = {
       concentration: 240, // mg per 5ml
       volume: 5, // ml
       form: 'Syrup',
-      image: '/medications/crocin_240.png',
+      image: '/medications/india/crocin_240.png',
       ageRestriction: ''
     },
     {
@@ -42,7 +42,7 @@ export const medicationsIndiaEnglish = {
       concentration: 250, // mg per 5ml
       volume: 5, // ml
       form: 'Syrup',
-      image: '/medications/calpol_250.jpg',
+      image: '/medications/india/calpol_250.jpg',
       ageRestriction: ''
     },
     {
@@ -52,7 +52,7 @@ export const medicationsIndiaEnglish = {
       concentration: 250, // mg per 5ml
       volume: 5, // ml
       form: 'Syrup',
-      image: '/medications/dolo_250.jpg',
+      image: '/medications/india/dolo_250.jpg',
       ageRestriction: ''
     }
   ],
@@ -64,7 +64,7 @@ export const medicationsIndiaEnglish = {
       concentration: 100, // mg per 5ml
       volume: 5, // ml
       form: 'Syrup',
-      image: '/medications/ibugesic_syrup.jpg',
+      image: '/medications/india/ibugesic_syrup.jpg',
       ageRestriction: '6 months and above'
     },
     {
@@ -74,7 +74,7 @@ export const medicationsIndiaEnglish = {
       concentration: 100, // mg per 5ml
       volume: 5, // ml
       form: 'Syrup',
-      image: '/medications/brufen_junior.webp',
+      image: '/medications/india/brufen_junior.webp',
       ageRestriction: '6 months and above'
     }
   ],
@@ -124,7 +124,7 @@ export const medicationsIndiaEnglish = {
         ingredient: 'Paracetamol',
         concentration: 80, // mg
         form: 'suppository',
-        image: '/medications/suppol_baby.jpg',
+        image: '/medications/india/suppol_baby.jpg',
         weightRange: '6-10 kg',
         ageRestriction: 'Infants'
       },
@@ -134,7 +134,7 @@ export const medicationsIndiaEnglish = {
         ingredient: 'Paracetamol',
         concentration: 170, // mg
         form: 'suppository',
-        image: '/medications/suppol_child.jpg',
+        image: '/medications/india/suppol_child.jpg',
         weightRange: '11-15 kg',
         ageRestriction: 'Children'
       },
@@ -144,7 +144,7 @@ export const medicationsIndiaEnglish = {
         ingredient: 'Paracetamol',
         concentration: 250, // mg
         form: 'suppository',
-        image: '/medications/suppol_250.jpg',
+        image: '/medications/india/suppol_250.jpg',
         weightRange: '16-25 kg',
         ageRestriction: 'Older children'
       }
@@ -156,7 +156,7 @@ export const medicationsIndiaEnglish = {
         ingredient: 'Diclofenac',
         concentration: 12.5, // mg
         form: 'suppository',
-        image: '/medications/jonac_12_5.jpg',
+        image: '/medications/india/jonac_12_5.jpg',
         weightRange: '10-15 kg',
         ageRestriction: 'For children over 1 year'
       },
@@ -166,7 +166,7 @@ export const medicationsIndiaEnglish = {
         ingredient: 'Diclofenac',
         concentration: 25, // mg
         form: 'suppository',
-        image: '/medications/jonac_25.jpg',
+        image: '/medications/india/jonac_25.jpg',
         weightRange: '15-20 kg',
         ageRestriction: 'For older children'
       }

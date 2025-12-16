@@ -10,7 +10,7 @@ export const medicationsBrasil = {
       concentration: 100, // mg per ml (100mg/ml)
       volume: 1, // ml
       form: 'drops',
-      image: '/medications/brasil/tylenol_bebe.jpg',
+      image: '/medications/brazil/tylenol_bebe.jpg',
       ageRestriction: 'Para bebês 0-2 anos'
     },
     {
@@ -20,7 +20,7 @@ export const medicationsBrasil = {
       concentration: 32, // mg per ml (32mg/ml as shown on package)
       volume: 1, // ml
       form: 'syrup',
-      image: '/medications/brasil/tylenol_crianca.jpg',
+      image: '/medications/brazil/tylenol_crianca.jpg',
       ageRestriction: ''
     },
     {
@@ -30,7 +30,7 @@ export const medicationsBrasil = {
       concentration: 100, // mg per ml (100mg/ml baby version)
       volume: 1, // ml
       form: 'drops',
-      image: '/medications/brasil/paracetamol_ems_bebe.jpg',
+      image: '/medications/brazil/paracetamol_ems_bebe.jpg',
       ageRestriction: 'Para bebês 0-2 anos'
     },
     {
@@ -40,7 +40,7 @@ export const medicationsBrasil = {
       concentration: 200, // mg per ml (200mg/ml as shown on package)
       volume: 1, // ml
       form: 'drops',
-      image: '/medications/brasil/paracetamol_ems.jpg',
+      image: '/medications/brazil/paracetamol_ems.jpg',
       ageRestriction: ''
     },
     {
@@ -50,7 +50,7 @@ export const medicationsBrasil = {
       concentration: 100, // mg per ml (100mg/ml baby version)
       volume: 1, // ml
       form: 'drops',
-      image: '/medications/brasil/paracetamol_vitamedic_bebe.webp',
+      image: '/medications/brazil/paracetamol_vitamedic_bebe.webp',
       ageRestriction: 'Para bebês 0-2 anos'
     },
     {
@@ -60,7 +60,7 @@ export const medicationsBrasil = {
       concentration: 140, // mg per ml (140mg/ml as shown on pharmacy website)
       volume: 1, // ml
       form: 'drops',
-      image: '/medications/brasil/paracetamol_vitamedic.jpg',
+      image: '/medications/brazil/paracetamol_vitamedic.jpg',
       ageRestriction: ''
     },
     {
@@ -70,7 +70,7 @@ export const medicationsBrasil = {
       concentration: 200, // mg per ml (200mg/ml as shown on package)
       volume: 1, // ml
       form: 'drops',
-      image: '/medications/brasil/paracetamol_ache.jpg',
+      image: '/medications/brazil/paracetamol_ache.jpg',
       ageRestriction: ''
     }
   ],
@@ -82,7 +82,7 @@ export const medicationsBrasil = {
       concentration: 100, // mg per 5ml (20mg/ml)
       volume: 5, // ml
       form: 'syrup',
-      image: '/medications/brasil/alivium.jpg',
+      image: '/medications/brazil/alivium.jpg',
       ageRestriction: 'Idade acima de 6 meses',
       minAgeMonths: 6
     },
@@ -93,7 +93,7 @@ export const medicationsBrasil = {
       concentration: 100, // mg per 5ml
       volume: 5, // ml
       form: 'syrup',
-      image: '/medications/brasil/ibuprofeno_cimed.jpg',
+      image: '/medications/brazil/ibuprofeno_cimed.jpg',
       ageRestriction: 'Idade acima de 6 meses',
       minAgeMonths: 6
     },
@@ -104,7 +104,7 @@ export const medicationsBrasil = {
       concentration: 100, // mg per 5ml
       volume: 5, // ml
       form: 'syrup',
-      image: '/medications/brasil/ibuprofeno_medley.jpg',
+      image: '/medications/brazil/ibuprofeno_medley.jpg',
       ageRestriction: 'Idade acima de 6 meses',
       minAgeMonths: 6
     },
@@ -115,7 +115,7 @@ export const medicationsBrasil = {
       concentration: 100, // mg per 5ml
       volume: 5, // ml
       form: 'syrup',
-      image: '/medications/brasil/ibuprofeno_geolab.jpg',
+      image: '/medications/brazil/ibuprofeno_geolab.jpg',
       ageRestriction: 'Idade acima de 6 meses',
       minAgeMonths: 6
     }
@@ -128,7 +128,7 @@ export const medicationsBrasil = {
       concentration: 125, // mg per suppository
       volume: 1,
       form: 'suppository',
-      image: '/medications/brasil/paracetamol_supp_125.jpg',
+      image: '/medications/brazil/paracetamol_supp_125.jpg',
       ageRestriction: ''
     },
     {
@@ -138,7 +138,7 @@ export const medicationsBrasil = {
       concentration: 250, // mg per suppository
       volume: 1,
       form: 'suppository',
-      image: '/medications/brasil/paracetamol_supp_250.jpg',
+      image: '/medications/brazil/paracetamol_supp_250.jpg',
       ageRestriction: ''
     },
     {
@@ -148,7 +148,7 @@ export const medicationsBrasil = {
       concentration: 350, // mg per suppository
       volume: 1,
       form: 'suppository',
-      image: '/medications/brasil/paracetamol_supp_350.jpg',
+      image: '/medications/brazil/paracetamol_supp_350.jpg',
       ageRestriction: ''
     }
   ],
@@ -160,7 +160,7 @@ export const medicationsBrasil = {
       concentration: 300, // mg per suppository
       volume: 1,
       form: 'suppository',
-      image: '/medications/brasil/novalgina_supp_300.jpg',
+      image: '/medications/brazil/novalgina_supp_300.jpg',
       ageRestriction: 'Para crianças acima de 1 ano',
       minAgeMonths: 12
     },
@@ -171,7 +171,7 @@ export const medicationsBrasil = {
       concentration: 500, // mg per suppository
       volume: 1,
       form: 'suppository',
-      image: '/medications/brasil/novalgina_supp_500.jpg',
+      image: '/medications/brazil/novalgina_supp_500.jpg',
       ageRestriction: 'Para crianças acima de 1 ano',
       minAgeMonths: 12
     }
@@ -184,7 +184,7 @@ export const medicationsBrasil = {
       concentration: 12.5, // mg per suppository
       volume: 1,
       form: 'suppository',
-      image: '/medications/brasil/voltaren_12_5.jpg',
+      image: '/medications/brazil/voltaren_12_5.jpg',
       ageRestriction: 'Para crianças acima de 1 ano',
       minAgeMonths: 12
     },
@@ -195,7 +195,7 @@ export const medicationsBrasil = {
       concentration: 25, // mg per suppository
       volume: 1,
       form: 'suppository',
-      image: '/medications/brasil/voltaren_25.jpg',
+      image: '/medications/brazil/voltaren_25.jpg',
       ageRestriction: 'Para crianças acima de 1 ano',
       minAgeMonths: 12
     }
