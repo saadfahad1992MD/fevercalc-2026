@@ -12,10 +12,10 @@ import { AlertTriangle, Calculator, Info, X, ZoomIn, Pill, Flame, Shield, Clock,
 import { LanguageToggle } from '@/components/LanguageToggle.jsx'
 import { ShareModalEnglish } from '@/components/ShareModalEnglish.jsx'
 import linkedinLogo from '@/assets/linkedin-logo.png'
-import { medicationsTurkey } from '@/data/countries/medicationsTurkey.js'
+import { medicationsTurkeyEnglish } from '@/data/countries/medicationsTurkeyEnglish.js'
 import '@/App.css'
 
-// Indonesia medications use placeholder images defined in medicationsTurkey.js
+// Indonesia medications use placeholder images defined in medicationsIndonesia.js
 
 // Saudi medications - replaced with Indian medications
 /*
@@ -283,8 +283,8 @@ const suppositories = {
 */
 
 // Use Indonesia medications database (English)
-const medications = { paracetamol: medicationsTurkey.paracetamol, ibuprofen: medicationsTurkey.ibuprofen };
-const suppositories = medicationsTurkey.suppositories;
+const medications = { paracetamol: medicationsIndonesia.paracetamol, ibuprofen: medicationsIndonesia.ibuprofen };
+const suppositories = medicationsIndonesia.suppositories;
 
 function AppEnglish({ onChangeLanguage }) {
   const [weight, setWeight] = useState('') // String for text input
@@ -724,7 +724,7 @@ function AppEnglish({ onChangeLanguage }) {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      <LanguageToggle currentLanguage="en" targetLanguage="tr" onToggle={onChangeLanguage} />
+      <LanguageToggle currentLanguage="en" targetLanguage="id" onToggle={onChangeLanguage} />
       {/* Top Brand Header */}
       <div className="sticky top-0 bg-white text-gray-800 pt-12 pb-6 sm:pt-6 shadow-lg border-b-2 border-gray-100 z-40">
         <div className="max-w-4xl mx-auto px-4 relative">
