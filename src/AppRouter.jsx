@@ -10,8 +10,6 @@ import AppPhilippinesTagalog from './countries/philippines/AppTagalog.jsx'
 import AppPhilippinesEnglish from './countries/philippines/AppEnglish.jsx'
 import AppIndonesiaIndonesian from './countries/indonesia/AppIndonesian.jsx'
 import AppIndonesiaEnglish from './countries/indonesia/AppEnglish.jsx'
-import AppTurkeyTurkish from './countries/turkey/AppTurkish.jsx'
-import AppTurkeyEnglish from './countries/turkey/AppEnglish.jsx'
 import AppMexicoSpanish from './countries/mexico/AppSpanish.jsx'
 import AppMexicoEnglish from './countries/mexico/AppEnglish.jsx'
 import AppBrazilPortuguese from './countries/brazil/AppPortuguese.jsx'
@@ -56,17 +54,6 @@ export const countries = {
     defaultLanguage: 'id',
     PrimaryApp: AppIndonesiaIndonesian,
     SecondaryApp: AppIndonesiaEnglish
-  },
-  tr: {
-    code: 'tr',
-    name: 'Turkey',
-    nameNative: 'Türkiye',
-    flag: '🇹🇷',
-    path: '/tr',
-    languages: ['tr', 'en'],
-    defaultLanguage: 'tr',
-    PrimaryApp: AppTurkeyTurkish,
-    SecondaryApp: AppTurkeyEnglish
   },
   mx: {
     code: 'mx',
@@ -130,7 +117,6 @@ const countryCodeMap = {
   'SA': 'sa',
   'PH': 'ph',
   'ID': 'id',
-  'TR': 'tr',
   'MX': 'mx',
   'BR': 'br',
   'NG': 'ng',
@@ -161,7 +147,6 @@ function CountryPage({ countryCode }) {
       sa: language === 'ar' ? 'حاسبة جرعات الحرارة للأطفال | السعودية' : 'Fever Calculator | Saudi Arabia',
       ph: 'Pediatric Fever Calculator | Philippines',
       id: language === 'id' ? 'Kalkulator Dosis Demam Anak | Indonesia' : 'Fever Calculator | Indonesia',
-      tr: language === 'tr' ? 'Çocuk Ateş Doz Hesaplayıcı | Türkiye' : 'Fever Calculator | Turkey',
       mx: language === 'es' ? 'Calculadora de Dosis para Fiebre | México' : 'Fever Calculator | Mexico',
       br: language === 'pt' ? 'Calculadora de Dose para Febre | Brasil' : 'Fever Calculator | Brazil',
       ng: 'Pediatric Fever Calculator | Nigeria',
@@ -272,9 +257,6 @@ export function AppRouter() {
         
         {/* Indonesia */}
         <Route path="/id" element={<CountryPage countryCode="id" />} />
-        
-        {/* Turkey */}
-        <Route path="/tr" element={<CountryPage countryCode="tr" />} />
         
         {/* Mexico */}
         <Route path="/mx" element={<CountryPage countryCode="mx" />} />
