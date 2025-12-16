@@ -750,7 +750,7 @@ function AppEnglish({ onChangeLanguage }) {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      <LanguageToggle currentLanguage="en" onToggle={onChangeLanguage} />
+      <LanguageToggle currentLanguage="en" targetLanguage="hi" countryCode="in" onToggle={onChangeLanguage} />
       {/* Top Brand Header */}
       <div className="sticky top-0 bg-white text-gray-800 pt-12 pb-6 sm:pt-6 shadow-lg border-b-2 border-gray-100 z-40">
         <div className="max-w-4xl mx-auto px-4 relative">
