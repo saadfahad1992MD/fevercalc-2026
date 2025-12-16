@@ -15,9 +15,7 @@ import linkedinLogo from '@/assets/linkedin-logo.png'
 import '@/App.css'
 
 // Import country-specific medication data
-import { medicationsIndia } from '@/data/countries/medicationsIndia.js'
-import { medicationsEgypt } from '@/data/countries/medicationsEgypt.js'
-import { medicationsPhilippines } from '@/data/countries/medicationsPhilippines.js'
+import { medicationsNigeria } from '@/data/countries/medicationsNigeria.js'
 
 // Import medication images
 import adolSyrupImg from '@/assets/medications/adol_syrup.webp'
@@ -322,8 +320,8 @@ function App({ onChangeLanguage, country = 'DEFAULT', language = 'ar' }) {
   const [isShareModalOpen, setIsShareModalOpen] = useState(false)
 
   // Select medications based on country
-  const medicationsData = country === 'IN' ? medicationsIndia : (country === 'EG' ? medicationsEgypt : (country === 'PH' ? medicationsPhilippines : medications))
-  const suppositoriesData = country === 'IN' ? medicationsIndia.suppositories : (country === 'PH' ? medicationsPhilippines.suppositories : suppositories)
+  const medicationsData = medicationsNigeria
+  const suppositoriesData = medicationsNigeria.suppositories || { paracetamol: [], diclofenac: [] }
 
   // Function to convert Arabic numerals to English numerals
   const convertArabicToEnglish = (str) => {

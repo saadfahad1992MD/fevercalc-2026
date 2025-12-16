@@ -12,10 +12,10 @@ import { AlertTriangle, Calculator, Info, X, ZoomIn, Pill, Flame, Shield, Clock,
 import { LanguageToggle } from '@/components/LanguageToggle.jsx'
 import { ShareModalEnglish } from '@/components/ShareModalEnglish.jsx'
 import linkedinLogo from '@/assets/linkedin-logo.png'
-import { medicationsIndonesia } from '@/data/countries/medicationsIndonesia.js'
+import { medicationsTurkey } from '@/data/countries/medicationsTurkey.js'
 import '@/App.css'
 
-// Indonesia medications use placeholder images defined in medicationsIndonesia.js
+// Indonesia medications use placeholder images defined in medicationsTurkey.js
 
 // Saudi medications - replaced with Indian medications
 /*
@@ -283,8 +283,8 @@ const suppositories = {
 */
 
 // Use Indonesia medications database (English)
-const medications = { paracetamol: medicationsIndonesia.paracetamol, ibuprofen: medicationsIndonesia.ibuprofen };
-const suppositories = medicationsIndonesia.suppositories;
+const medications = { paracetamol: medicationsTurkey.paracetamol, ibuprofen: medicationsTurkey.ibuprofen };
+const suppositories = medicationsTurkey.suppositories;
 
 function AppEnglish({ onChangeLanguage }) {
   const [weight, setWeight] = useState('') // String for text input
