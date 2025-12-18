@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /private/
 
-Sitemap: https://fevercalc.com/sitemap.xml
+Sitemap: https://fevercalc-2026.vercel.app/sitemap.xml
