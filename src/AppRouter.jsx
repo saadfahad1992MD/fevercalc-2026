@@ -39,10 +39,10 @@ export const countries = {
     nameNative: 'Pilipinas',
     flag: '🇵🇭',
     path: '/ph',
-    languages: ['en', 'tl'],
-    defaultLanguage: 'en',
-    PrimaryApp: AppPhilippinesEnglish,
-    SecondaryApp: AppPhilippinesTagalog
+    languages: ['tl', 'en'],
+    defaultLanguage: 'tl',
+    PrimaryApp: AppPhilippinesTagalog,
+    SecondaryApp: AppPhilippinesEnglish
   },
   id: {
     code: 'id',
@@ -94,10 +94,10 @@ export const countries = {
     nameNative: 'भारत',
     flag: '🇮🇳',
     path: '/in',
-    languages: ['en', 'hi'],
-    defaultLanguage: 'en',
-    PrimaryApp: AppIndiaEnglish,
-    SecondaryApp: AppIndiaHindi
+    languages: ['hi', 'en'],
+    defaultLanguage: 'hi',
+    PrimaryApp: AppIndiaHindi,
+    SecondaryApp: AppIndiaEnglish
   },
   eg: {
     code: 'eg',
